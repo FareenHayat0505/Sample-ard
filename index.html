@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARD SAMPLE</title> 
+    <style>
+        body,html{ 
+            margin: 0; 
+            padding: 0; 
+            background-color: rgb(214, 211, 211); 
+            height: 100%;
+        } 
+        .box{  
+            background-color: rgb(226, 243, 243);
+            display: flex; 
+            height: 100%; 
+            justify-content: center; 
+            align-items: center;
+        } 
+        .content{  
+            background-color: rgb(209, 222, 222);
+            text-align: center; 
+           max-width: 300px; 
+           padding: 40px; 
+           border-radius: 10px; 
+           max-height: 400px;
+        } 
+        .play{ 
+            margin: 0; 
+            font-size: 35px;
+        } 
+        .com{ 
+            margin-bottom: 50px; 
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+            font-size: 40px; 
+            background-color: rgb(161, 189, 180);
+        } 
+        .imag{ 
+            border-radius: 4px;
+        } 
+        .b1, .b2{ 
+            border-radius: px; 
+            padding: 10px 20px; 
+            border: none; 
+            margin: 15px; 
+            border-radius: 4px; 
+            background-color: rgb(16, 2, 2); 
+            color: aliceblue;  
+            cursor: pointer;
+            transition: background-color white 0.6s ease-in-out,box-shadow 0.3s ease;
+        } 
+        .b1:hover , .b2:hover{ 
+        background-color: rgb(199, 5, 44); 
+        box-shadow: 0 8px 9px rgba(0, 0, 0, 0.2); ;
+        }
+
+    </style>
+</head>
+<body> 
+     <div class="box">
+   <div class="content"><img class="imag" src="image.png" alt="">
+      <p class="play"><b>PS6</b></p> 
+      <p class="com">COMING SOON</p>
+    
+        <button class="b1">BUY NOW</button> 
+        <button class="b2">ADD TO CART</button> 
+</div>    
+</body>
+</html>
